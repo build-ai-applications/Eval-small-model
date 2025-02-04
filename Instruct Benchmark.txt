@@ -216,6 +216,96 @@ Business & Economics           | 45.50
 Health & Well-being            | 46.50
 Environment & Climate          | 48.50
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                          04/02/2025                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+## 12. Model: keeeeenw/MicroLlama
+
+Refined Evaluation Categorized by Topic
+
+Category of Question           | Average Score (Out of 100)
+------------------------------------------------------------
+Creative Writing	       | 10.00 (Severe repetition, does not follow prompt correctly)
+Science & Technology	       | 15.00 (Responses are repetitive and incorrect, missing core details)
+Social Sciences & Humanities   | 12.00 (Lacks depth, factual mistakes, no coherent explanations)
+Business & Economics	       | 10.00 (Superficial, fails to provide useful insights, generic repetition)
+Health & Well-being	       | 10.00 (Minimal effort, mostly repeating keywords, fails to provide any useful explanation)
+Environment & Climate	       | 15.00 (Recognizes human influence on climate but repeats the same statement without elaboration)
+
+
+## 13. Model: Llama-3.2-1B-Instruct-Open-R1-Distill
+
+Refined Evaluation Categorized by Topic
+
+Category of Question           | Average Score (Out of 100)
+------------------------------------------------------------
+Creative Writing               | 55.00 (Decent creativity, maintains structure, but could improve coherence)
+Science & Technology           | 60.00 (Provides relevant information with reasonable accuracy)
+Social Sciences & Humanities   | 58.00 (Well-structured, but some responses lack depth)
+Business & Economics           | 52.00 (Covers key points but lacks advanced insights)
+Health & Well-being            | 54.00 (Informative, but explanations could be more detailed)
+Environment & Climate          | 57.00 (Addresses core issues effectively, though some points are generic)
+
+## 13. Model: MicroLlama-Instruct-0.1
+
+Refined Evaluation Categorized by Topic
+
+Category of Question           | Average Score (Out of 100)
+------------------------------------------------------------
+Creative Writing               | 08.00 (Severe repetition, incoherent responses, lacks structure)
+Science & Technology           | 10.00 (Incomplete answers, frequent factual errors, lacks explanation)
+Social Sciences & Humanities   | 09.00 (Minimal depth, missing responses, weak reasoning)
+Business & Economics           | 07.00 (Fails to address key concepts, incomplete and generic responses)
+Health & Well-being            | 06.00 (Sparse answers, lacks clarity, no supporting details)
+Environment & Climate          | 05.00 (Major omissions, missing explanations, incomplete thoughts)
+
+
+
+## 14. Model: microsoft/Phi-3.5-mini-instruct
+
+Refined Evaluation Categorized by Topic
+
+Category of Question           | Average Score (Out of 100)
+------------------------------------------------------------
+Creative Writing               | 85.00 (Well-structured and expressive, strong poetic and narrative coherence)
+Science & Technology           | 80.00 (Accurate explanations, well-structured, easy to understand)
+Social Sciences & Humanities   | 78.00 (Comprehensive and insightful, but could have more depth in analysis)
+Business & Economics           | 75.00 (Covers key concepts well, provides practical insights)
+Health & Well-being            | 77.00 (Informative and detailed, with well-explained benefits)
+Environment & Climate          | 80.00 (Covers major causes and impacts, structured explanations)
+
+
+## 15. Model: genSILMA-Kashif-2B-Instruct-v1.0
+
+Refined Evaluation Categorized by Topic
+
+Category of Question           | Average Score (Out of 100)
+------------------------------------------------------------
+Creative Writing               | 82.00 (Well-structured and expressive, engaging storytelling)
+Science & Technology           | 78.00 (Accurate and informative, explanations are clear)
+Social Sciences & Humanities   | 76.00 (Well-articulated, though some responses could be deeper)
+Business & Economics           | 74.00 (Covers key principles, could benefit from more advanced insights)
+Health & Well-being            | 75.00 (Informative and practical, provides useful takeaways)
+Environment & Climate          | 77.00 (Addresses causes and effects comprehensively, structured well)
+
+
+## 16. Model: genDeepSeek-R1-ReDistill-Qwen-1.5B-v1.0
+
+Refined Evaluation Categorized by Topic
+
+Category of Question           | Average Score (Out of 100)
+------------------------------------------------------------
+Creative Writing               | 20.00 (Fragmented and incomplete responses, lacks coherence)
+Science & Technology           | 18.00 (Responses often contain placeholder text or irrelevant content)
+Social Sciences & Humanities   | 15.00 (Fails to provide meaningful insights, some responses are nonsensical)
+Business & Economics           | 12.00 (Inconsistent and often incoherent explanations)
+Health & Well-being            | 10.00 (Repetitive sequences, some responses contain numerical placeholders)
+Environment & Climate          | 15.00 (Lacks depth, contains unrelated thoughts or incomplete text)
+
+
 *********************************************************
 
 
