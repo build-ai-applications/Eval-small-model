@@ -1,0 +1,229 @@
+# LLM Instruction Benchmarking
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                        01/02/2025                          +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+## Model : deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+
+Refined Evaluation Categorized by Topic (R1-1.5)
+
+Category of question           | Average Score
+----------------------------------------------
+Creative Writing               | 31.50
+Science & Technology           | 37.50
+Social Sciences & Humanities   | 33.25
+Business & Economics           | 48.33
+Health & Well-being            | 43.33
+Environment & Climate          | 30.00
+
+
+## Model : tiiuae/Falcon3-3B-Instruct
+
+Refined Evaluation Categorized by Topic(Facon3b)
+
+Category of question           | Average Score
+-----------------------------------------------
+Creative Writing               | 52.50
+Science & Technology           | 65.00
+Social Sciences & Humanities   | 50.00
+Business & Economics           | 53.33
+Health & Well-being            | 50.00
+Environment & Climate          | 50.00
+
+
+## Model : tiiuae/Falcon3-1B-Instruct
+
+Refined Evaluation Categorized by Topic (Falcon1B)
+
+Category of question           | Average Score
+----------------------------------------------
+Creative Writing               | 55.00
+Science & Technology           | 52.50
+Social Sciences & Humanities   | 52.50
+Business & Economics           | 50.00
+Health & Well-being            | 50.00
+Environment & Climate          | 50.00
+
+
+## Model : Qwen/Qwen2.5-Math-1.5B-Instruct
+
+Refined Evaluation Categorized by Topic (Qwen2.5-Math-1.5B)
+
+Category of question           | Average Score
+----------------------------------------
+Creative Writing               | 52.50
+Science & Technology           | 59.50
+Social Sciences & Humanities   | 57.50
+Business & Economics           | 56.67
+Health & Well-being            | 56.67
+Environment & Climate          | 60.00
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                          03/02/2025                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+## 1.Model: Llama-3.2-1B-Instruct
+
+Refined Evaluation Categorized by Topic (Llama-3.2-1B)
+
+Category of question           | Average Score (Out of 100)
+----------------------------------------------------------
+Creative Writing               | 54.00
+Science & Technology           | 58.00
+Social Sciences & Humanities   | 55.00
+Business & Economics           | 53.00
+Health & Well-being            | 52.50
+Environment & Climate          | 57.50
+
+
+## 2.Model: Salamandra-2B-Instruct
+
+Refined Evaluation Categorized by Topic (Salamandra-2B)
+
+Category of question           | Average Score (Out of 100)
+-----------------------------------------------------------
+Creative Writing               | 53.50
+Science & Technology           | 58.75
+Social Sciences & Humanities   | 55.25
+Business & Economics           | 52.75
+Health & Well-being            | 51.50
+Environment & Climate          | 56.25
+
+
+## 3. Model: TinyLlama-1.1B-Chat
+Refined Evaluation Categorized by Topic (TinyLlama-1.1B-Chat)
+
+Category of question           | Average Score (Out of 100)
+-----------------------------------------------------------
+Creative Writing               | 10.00
+Science & Technology           | 5.00
+Social Sciences & Humanities   | 5.00
+Business & Economics           | 5.00
+Health & Well-being            | 5.00
+Environment & Climate          | 5.00
+(So many Blank answers)
+
+## 4. Model: SmolLM2-1.7B-Instruct  (SGlang) and Transformers lib
+
+Refined Evaluation Categorized by Topic (SmolLM2-1.7B)
+
+Category of question           | Average Score (Out of 100)
+-----------------------------------------------------------
+Creative Writing               | 5.00
+Science & Technology           | 10.00
+Social Sciences & Humanities   | 5.00
+Business & Economics           | 5.00
+Health & Well-being            | 5.00
+Environment & Climate          | 5.00
+
+(So many blank)
+
+
+## 5. Model: TinyLlama_v1.1-Math-Code 
+
+Refined Evaluation Categorized by Topic (TinyLlama_v1.1-Math-Code)
+
+Category of question           | Average Score (Out of 100)
+------------------------------------------------------------
+Creative Writing               | 35.00
+Science & Technology           | 40.00
+Social Sciences & Humanities   | 37.50
+Business & Economics           | 32.50
+Health & Well-being            | 32.50
+Environment & Climate          | 35.00
+
+
+## 6. Model: TinyLlama_v1.1
+
+Refined Evaluation Categorized by Topic (TinyLlama_v1.1)
+
+Category of question           | Average Score (Out of 100)
+-----------------------------------------------------------
+Creative Writing               | 35.00
+Science & Technology           | 42.00
+Social Sciences & Humanities   | 38.50
+Business & Economics           | 34.50
+Health & Well-being            | 31.50
+Environment & Climate          | 38.00
+( Reparations )
+
+
+## 7. Model: Gemma-2B-IT
+
+Refined Evaluation Categorized by Topic (Gemma-2B-IT)
+
+Category of question           | Average Score (Out of 100)
+-----------------------------------------------------------
+Creative Writing               | 42.50
+Science & Technology           | 48.00
+Social Sciences & Humanities   | 45.50
+Business & Economics           | 40.00
+Health & Well-being            | 41.50
+Environment & Climate          | 44.00
+
+## 8. Model: Gemma-2-2B-IT
+
+Refined Evaluation Categorized by Topic (Gemma-2-2B-IT)
+
+Category of question           | Average Score (Out of 100)
+-----------------------------------------------------------
+Creative Writing               | 48.00
+Science & Technology           | 55.00
+Social Sciences & Humanities   | 52.50
+Business & Economics           | 47.50
+Health & Well-being            | 49.00
+Environment & Climate          | 51.00
+
+## 9. Model: Llama-3.2-1B
+
+Refined Evaluation Categorized by Topic (Llama-3.2-1B)
+
+Category of question           | Average Score (Out of 100)
+-----------------------------------------------------------
+Creative Writing               | 46.00
+Science & Technology           | 52.50
+Social Sciences & Humanities   | 48.00
+Business & Economics           | 44.50
+Health & Well-being            | 45.50
+Environment & Climate          | 47.50
+
+
+## 10. Model: Qwen2.5-Coder-0.5B-Instruct
+
+Refined Evaluation Categorized by Topic (Qwen2.5-Coder-0.5B-Instruct)
+
+Category of question           | Average Score (Out of 100)
+-----------------------------------------------------------
+Creative Writing               | 42.50
+Science & Technology           | 48.00
+Social Sciences & Humanities   | 45.00
+Business & Economics           | 41.50
+Health & Well-being            | 42.00
+Environment & Climate          | 44.00
+
+## 11. Model: Qwen2-0.5B
+
+Refined Evaluation Categorized by Topic (Qwen2-0.5B)
+
+Category of question           | Average Score (Out of 100)
+-----------------------------------------------------------
+Creative Writing               | 47.50
+Science & Technology           | 53.00
+Social Sciences & Humanities   | 50.00
+Business & Economics           | 45.50
+Health & Well-being            | 46.50
+Environment & Climate          | 48.50
+
+*********************************************************
+
+
+Overall Average Scores for Each Model
+
+Model                                   | Average Score
+------------------------------------------------------
+DeepSeek-R1-Distill-Qwen-1.5B            | 37.32
+Falcon3-3B-Instruct                      | 53.47
+Falcon3-1B-Instruct                      | 51.67
+Qwen2.5-Math-1.5B-Instruct               | 56.81
