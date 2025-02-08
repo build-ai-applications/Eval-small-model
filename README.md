@@ -125,5 +125,12 @@ Feel free to contribute by:
 - Testing with different models
 - Improving documentation
 
+## References
+- NVIDIA CUDA Toolkit: https://developer.nvidia.com/cuda-toolkit
+- PyTorch Installation: https://pytorch.org/get-started/locally/
+- SGLang Documentation: https://github.com/build-ai-applications/sglang
+- FlashInfer: https://flashinfer.ai
+
 ## License
-This setup guide and benchmarking framework is provided under the MIT License. 
+This setup guide and benchmarking framework is provided under the MIT License.
+
