@@ -21,17 +21,17 @@ This repository contains tools for setting up **SGLang** with **CUDA support** a
 
 ### 🔹 1. CUDA Installation  
 ```bash
-# 🚀 Download CUDA 12.1  
+# Download CUDA 12.1  
 wget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda_12.1.0_530.30.02_linux.run
 
-# 🛠️ Install CUDA (without driver)  
+# Install CUDA (without driver)  
 sudo sh cuda_12.1.0_530.30.02_linux.run
 
-# 🔗 Add CUDA to PATH and LD_LIBRARY_PATH  
+# Add CUDA to PATH and LD_LIBRARY_PATH  
 export PATH=/usr/local/cuda-12.1/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-12.1/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 
-# 🔄 Make the PATH changes permanent  
+# Make the PATH changes permanent  
 echo 'export PATH=/usr/local/cuda-12.1/bin${PATH:+:${PATH}}' >> ~/.bashrc
 echo 'export LD_LIBRARY_PATH=/usr/local/cuda-12.1/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}' >> ~/.bashrc
 source ~/.bashrc
@@ -39,16 +39,16 @@ source ~/.bashrc
 
 ### 🔹 2. PyTorch Installation  
 ```bash
-# ⚡ Install PyTorch with CUDA 12.1 support  
+# Install PyTorch with CUDA 12.1 support  
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
 
 ### 🔹 3. SGLang Installation  
 ```bash
-# 🛠️ Install SGLang with all dependencies  
+# Install SGLang with all dependencies  
 pip install "sglang[all]"
 
-# 🚀 Install FlashInfer (optional, for better performance)  
+# Install FlashInfer (optional, for better performance)  
 pip install flashinfer -i https://flashinfer.ai/whl/cu124/torch2.4/
 ```
 
@@ -85,13 +85,13 @@ Results are stored in **two locations**:
 
 ## ✅ Verification Steps  
 ```bash
-# 🎮 Verify CUDA installation  
+# Verify CUDA installation  
 nvcc --version  
 
-# 🔍 Verify PyTorch CUDA support  
+# Verify PyTorch CUDA support  
 python3 -c "import torch; print('CUDA available:', torch.cuda.is_available())"
 
-# 🛠️ Test SGLang  
+# Test SGLang  
 python3 -c "import sglang as sgl"
 ```
 
@@ -100,7 +100,7 @@ python3 -c "import sglang as sgl"
 import sglang as sgl
 import asyncio
 
-# 🧠 Initialize the engine with a model  
+# Initialize the engine with a model  
 llm = sgl.Engine(model_path="NousResearch/Hermes-3-Llama-3.2-3B")
 ```
 
