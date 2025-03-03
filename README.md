@@ -72,7 +72,11 @@ The framework supports **two evaluation approaches**:
 
 1️⃣ **Automated Evaluation** 🤖  
    - Uses **larger models (ChatGPT/Claude) as evaluators**  
-   - Systematic scoring based on predefined criteria  
+   - Systematic scoring based on predefined criteria
+   - Evaluation Prompt:
+     ```bash
+     Task: You are an expert evaluator responsible for scoring responses from a smaller LLM across various knowledge domains. Given a question and the LLM's response, assess the response based on accuracy, coherence, depth, and clarity. Provide a score (out of 100) for each category listed below. Evaluation Criteria: Creative Writing: Assess narrative coherence, expressiveness, and poetic strength. Science & Technology: Judge accuracy, structure, and ease of understanding.Social Sciences & Humanities: Evaluate insightfulness and depth of analysis. Business & Economics: Check for relevance, practical insights, and clarity. Health & Well-being: Assess informativeness, clarity, and explanation depth. Environment & Climate: Evaluate comprehensiveness, structure, and impact assessment.
+   ```
 
 2️⃣ **Manual Evaluation** 👨‍💻  
    - Direct **human assessment** of responses  
