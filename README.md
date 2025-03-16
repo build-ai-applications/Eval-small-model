@@ -1,7 +1,7 @@
 # 🚀 Model Evaluation with SGLang  
 
 This repository contains tools for setting up **SGLang** with **CUDA support** and evaluating various **language models** using a standardized benchmarking approach.  
-
+![Model Scores Graph](image.png)
 ## 📂 Repository Structure  
 ```
 .
